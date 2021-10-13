@@ -5,7 +5,7 @@ namespace FutureSuper\BackendInfra;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-trait BackendLogTrait
+class BackendLog
 {
     public function logInfo(string $message)
     {

@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "php": "^8.0",
-        "monolog/monolog": "^2.3"
+        "monolog/monolog": "^2.3",
+        "illuminate/support": "^8.64"
     },
     "license": "propprietary",
     "authors": [
@@ -21,6 +22,13 @@
     "autoload-dev": {
         "psr4": {
             "FutureSuper\\BackendInfra\\Tests\\":"tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Futuresuper\\BackendInfra\\BackendInfraServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
