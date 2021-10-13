@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Futuresuper\\BackendInfra\\BackendInfraServiceProvider"
+                "FutureSuper\\BackendInfra\\BackendInfraServiceProvider"
             ]
         }
     },
