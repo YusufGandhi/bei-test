@@ -1,0 +1,28 @@
+{
+    "name": "futuresuper/backend-infra",
+    "description": "Infrastructure, tools, and utils for Future Super PHP backend",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "monolog/monolog": "^2.3"
+    },
+    "license": "propprietary",
+    "authors": [
+        {
+            "name": "Yusuf Gandhi Putra",
+            "email": "yusuf@myfuturesuper.com.au"
+        }
+    ],
+    "autoload": {
+        "psr4": {
+            "FutureSuper\\BackendInfra\\":"src"
+        }
+    },
+    "autoload-dev": {
+        "psr4": {
+            "FutureSuper\\BackendInfra\\Tests\\":"tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
