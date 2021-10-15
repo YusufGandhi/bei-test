@@ -16,19 +16,12 @@
     ],
     "autoload": {
         "psr4": {
-            "FutureSuper\\BackendInfra\\":"src"
+            "FutureSuper\\BackendInfra\\":"src/"
         }
     },
     "autoload-dev": {
         "psr4": {
-            "FutureSuper\\BackendInfra\\Tests\\":"tests"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "FutureSuper\\BackendInfra\\BackendInfraServiceProvider"
-            ]
+            "FutureSuper\\BackendInfra\\Tests\\":"tests/"
         }
     },
     "minimum-stability": "dev",
