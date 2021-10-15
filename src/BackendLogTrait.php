@@ -9,11 +9,9 @@ trait BackendLogTrait
 {
     public function logInfo(string $message)
     {
-        $logger = new Logger('test logger');
-
-        $logger->pushHandler(new StreamHandler("php://stdout"));
-
-        $logger->info($message);
-
+        return $message;
+        // $logger = new Logger('test logger');
+        // $logger->pushHandler(new StreamHandler("php://stdout"));
+        // $logger->info($message);
     }
 }
