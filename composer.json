@@ -15,12 +15,12 @@
         }
     ],
     "autoload": {
-        "psr4": {
+        "psr-4": {
             "FutureSuper\\BackendInfra\\":"src/"
         }
     },
     "autoload-dev": {
-        "psr4": {
+        "psr-4": {
             "FutureSuper\\BackendInfra\\Tests\\":"tests/"
         }
     },
